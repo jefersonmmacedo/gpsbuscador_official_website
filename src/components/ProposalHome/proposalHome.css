@@ -1,0 +1,493 @@
+﻿.ProposalHome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ProposalHome h2 {
+    margin: 20px;
+    font-weight: bold;
+
+}
+.ProposalHome .proposalItens {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.ProposalHome .proposalItens .proposalList {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.ProposalHome .proposalItens .proposalList a {
+    text-decoration: none;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Button);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: var(--White);
+    font-weight: 700;
+    margin: 20px 0;
+}
+.ProposalHome .proposalItens .proposalList .proposalUnic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--Border);
+    padding: 0;
+    height: 120px;
+    margin-top: -1px;
+}
+.ProposalHome .proposalItens .proposalList .proposalUnic:hover {
+background-color: var(--BorderHover);
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .user p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .user .image {
+    width: 60px; 
+}
+.ProposalHome .proposalItens .proposalList .proposalUnic .user .image img {
+ width: 60px;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    height: 120px;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .data h3 {
+    font-weight: 900;
+    color: var(--Primary)
+}
+.ProposalHome .proposalItens .proposalList .proposalUnic .data h5 {
+    font-weight: 700;
+    color: var(--Description);
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .data p {
+    color: var(--Description);
+    font-weight: 700;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .data .professionals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .data .professionals p {
+    color: var(--White);
+    background-color: var(--Gray);
+    padding: 5px 5px;
+    margin: 5px 5px 5px 0;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .status h4 {
+    color: var(--White);
+    background-color: var(--Aproved);
+    padding: 5px 10px;
+    margin: 5px 0 5px 5px;
+    border-radius: 6px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.ProposalHome .proposalItens .proposalList .proposalUnic .status p {
+    font-weight: 700;
+    color: var(--Description);
+    align-items: right;
+}
+
+
+
+
+.ProposalHome .proposalItens .proposalView {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--Border);
+    margin: 10px;
+    height: 476px;
+    padding: 15px;
+}
+
+.ProposalHome .proposalItens .proposalView .block1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.ProposalHome .proposalItens .proposalView .block1 h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: var(--Primary)
+}
+.ProposalHome .proposalItens .proposalView .block1 h5 {
+    font-weight: 700;
+    color: var(--Description);
+}
+
+.ProposalHome .proposalItens .proposalView .block1 .professionals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+
+.ProposalHome .proposalItens .proposalView .block1 .professionals p {
+    color: var(--White);
+    background-color: var(--Gray);
+    padding: 5px 5px;
+    margin: 5px 5px 5px 0;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.ProposalHome .proposalItens .proposalView .block1 p {
+    font-weight: 700;
+    color: var(--Description);
+}
+
+
+
+
+.ProposalHome .proposalItens .proposalView .block2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ProposalHome .proposalItens .proposalView .block2 .status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ProposalHome .proposalItens .proposalView .block2 .status h4 {
+    color: var(--White);
+    background-color: var(--Aproved);
+    padding: 5px 10px;
+    margin: 5px 5px 5px 0;
+    border-radius: 6px;
+    font-weight: normal;
+}
+
+.ProposalHome .proposalItens .proposalView .block2 p {
+    font-weight: 700;
+    color: var(--Paragraph);
+}
+
+
+
+
+
+.ProposalHome .proposalItens .proposalView .block3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.ProposalHome .proposalItens .proposalView .block3 p {
+    font-weight: 700;
+    color: var(--Paragraph);
+}
+
+.ProposalHome .proposalItens .proposalView .block3 .infos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+
+.ProposalHome .proposalItens .proposalView .block3 .infos p {
+    font-weight: 700;
+    color: var(--Description);
+    margin-left: 5px;
+}
+
+.ProposalHome .proposalItens .proposalView .block3 .image {
+    width: 30px; 
+}
+.ProposalHome .proposalItens .proposalView .block3 .image img {
+ width: 30px;
+}
+.ProposalHome .proposalItens .proposalView .block3 button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Button);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: var(--White);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+  
+.content-modal h3 {
+    text-align: center;
+    margin: 5px auto;
+    color: var(--Gray);
+    font-weight: 700;
+  }
+  .content-modal .itensModal::-webkit-scrollbar {
+    width: 12px;              
+  }
+  
+  .content-modal .itensModal::-webkit-scrollbar-track {
+    background: var(--Primary);      
+  }
+  
+  .content-modal .itensModal::-webkit-scrollbar-thumb {
+    background-color: var(--Secunday);    
+    border-radius: 20px;      
+    border: 3px solid var(--Primary); 
+  }
+  
+  
+  .content-modal .itensModal {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    background-color: var(--BorderHover)
+  }
+  
+  .content-modal .itensModal form {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    padding: 0px 20px;
+  }
+
+   .content-modal .itensModal form input {
+    width: 100%;
+    background-color: var(--White);
+    color: var(--Paragraph);
+    padding: 10px;
+    font-weight: 500;
+    border:none;
+    border: 1px solid var(--Border);
+    border-radius: 6px;
+    margin: 5px 0;
+}
+ .content-modal .itensModal form select {
+    width: 100%;
+    background-color: var(--White);
+    color: var(--Paragraph);
+    font-weight: 500;
+    padding: 10px;
+    border:none;
+    border: 1px solid var(--Border);
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+.content-modal .itensModal form .data {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    margin: 5px 0;
+}
+.content-modal .itensModal form .text {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
+    width:100%;
+}
+.content-modal .itensModal form .text p {
+    color: var(--Paragraph);
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.content-modal .itensModal form .dataUnic {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    width:48%;
+}
+.content-modal .itensModal form .dataUnic p {
+    color: var(--Paragraph);
+    font-weight: 700;
+}
+
+.content-modal .itensModal form textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px 0;
+    resize: none;
+    color: var(--Paragraph);
+    font-weight: 500;
+    background-color: var(--White);
+    border: 1px solid var(--Border);
+}
+.content-modal .itensModal form button {
+    width:100%;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: var(--Primary);
+    color: var(--White);
+    border: none;
+}
+
+@media (max-width: 1100px) {
+    .ProposalHome .proposalItens {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .ProposalHome .proposalItens .proposalList {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px;
+    }
+    .ProposalHome .proposalItens .proposalList .proposalUnic {
+        height: 120px;
+    }
+
+    @media (max-width: 900px) {
+
+        
+        .ProposalHome .proposalItens {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .ProposalHome .proposalItens .proposalList {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 10px;
+        }
+
+        .ProposalHome .proposalItens .proposalView {
+            display: none;
+        }
+        
+        @media (max-width: 560px) {
+            .ProposalHome {
+                padding: 20px 5px;
+            }
+
+            .ProposalHome .proposalItens .proposalList {
+                width: 100%;
+            }
+
+            .ProposalHome .proposalItens .proposalList .proposalUnic {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                border: 1px solid var(--Border);
+                padding: 0;
+                height: 160px;
+                margin-top: -1px;
+            }
+
+            .ProposalHome .proposalItens .proposalList .proposalUnic .user {
+                display: none;
+            }
+
+            .ProposalHome .proposalItens .proposalList .proposalUnic .data {
+                margin-left: 15px;
+                margin-top: 10px;
+                width: 100%;
+            }
+            .ProposalHome .proposalItens .proposalList .proposalUnic .status {
+                width: 100%;
+                flex-direction: row;
+            }
+        }
+    
+    }
+}
